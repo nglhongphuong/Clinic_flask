@@ -1,0 +1,28 @@
+/* Light Mode */
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Optional: Dark mode for navbar */
+body.dark-mode .navbar-light {
+    background-color: #343a40;
+    color: white;
+}
+
+/* Optional: Dark mode for tables */
+body.dark-mode .table {
+    background-color: #2c2c2c;
+    color: white;
+}
+
+/* Transition effect for smooth color change */
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
